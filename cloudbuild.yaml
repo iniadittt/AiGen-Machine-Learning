@@ -22,4 +22,4 @@ steps:
       - '--allow-unauthenticated'
 images:
   - 'us-central1-docker.pkg.dev/$PROJECT_ID/aigen/aigen-ml:$COMMIT_SHA'
-logsBucket: 'gs://aigen/logs'
+logsBucket: 'gs://savory/logs'
